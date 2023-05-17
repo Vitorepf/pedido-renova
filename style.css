@@ -1,0 +1,39 @@
+
+#conteudo {
+    
+    background: #5d7eaf;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    padding: 3rem;
+}
+
+#sim:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 389px){
+    h2{
+        padding: 2rem;
+    }
+}
+
