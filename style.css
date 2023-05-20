@@ -37,3 +37,72 @@ h2{
     }
 }
 
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+  }
+  
+  #fecharPopup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  #fecharPopup:hover {
+    background-color: #ff4343;
+  }
+  
+
+  #meuPopup {
+    /* Estilos anteriores */
+  
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    background-image: url("papel-textura.jpg");
+    background-repeat: repeat;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #meuPopup h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #meuPopup p {
+    margin-bottom: 10px;
+  }
+  
+  #meuPopup a {
+    color: #800000;
+    text-decoration: underline;
+  }
+  
+  

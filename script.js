@@ -14,3 +14,20 @@ function desvia(t) {
 function geraPosicao(min, max) {
     return (Math.random() * (max - min) + min) + "%";
 }
+
+
+
+window.addEventListener('load', function() {
+    var popup = document.getElementById('meuPopup');
+    var fecharPopup = document.getElementById('fecharPopup');
+  
+    fecharPopup.addEventListener('click', function() {
+      popup.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    });
+  
+    document.body.style.overflow = 'hidden';
+    popup.style.display = 'block';
+  });
+  
+  
